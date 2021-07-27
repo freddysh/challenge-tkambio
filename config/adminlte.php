@@ -449,5 +449,5 @@ return [
     | https://github.com/jeroennoten/Laravel-AdminLTE/wiki/Other-Configuration
     */
 
-    'livewire' => true,
+    'livewire' => false,
 ];

@@ -7,8 +7,9 @@
 @stop
 
 @section('content')
+<div id="app">
     <tipo-cambio-crear-component></tipo-cambio-crear-component>
-
+</div>
 @stop
 
 @section('css')
@@ -18,5 +19,5 @@
 
 @section('js')
     <script> console.log('Hi!'); </script>
-    {{-- <script src="{{ asset('./js/app.js') }}"></script> --}}
+    <script src="{{ asset('js/app.js') }}"></script>
 @stop

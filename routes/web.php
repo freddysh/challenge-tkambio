@@ -20,14 +20,4 @@ Route::get('/', function () {
 });
 Auth::routes();
 
-
-Route::get('logout', function () {
-    Auth::logout();
-
-    session()->invalidate();
-
-    session()->regenerateToken();
-    return redirect('/');
-});
-
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

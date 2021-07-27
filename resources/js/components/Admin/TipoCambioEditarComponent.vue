@@ -195,11 +195,7 @@
 </template>
 
 <script>
-import FormError from "../utils/FormError";
 export default {
-  components: {
-    FormError
-  },
   data() {
     return {
       tipo_cambios: [],
